@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-toml_serialization-master.flake = false;
+  inputs.src-toml_serialization-master.ref   = "refs/heads/master";
   inputs.src-toml_serialization-master.owner = "status-im";
-  inputs.src-toml_serialization-master.ref   = "master";
   inputs.src-toml_serialization-master.repo  = "nim-toml-serialization";
   inputs.src-toml_serialization-master.type  = "github";
   
