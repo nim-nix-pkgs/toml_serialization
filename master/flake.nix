@@ -11,6 +11,7 @@
   inputs.src-toml_serialization-master.ref   = "refs/heads/master";
   inputs.src-toml_serialization-master.owner = "status-im";
   inputs.src-toml_serialization-master.repo  = "nim-toml-serialization";
+  inputs.src-toml_serialization-master.dir   = "";
   inputs.src-toml_serialization-master.type  = "github";
   
   inputs."serialization".owner = "nim-nix-pkgs";
