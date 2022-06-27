@@ -3,12 +3,14 @@
     "bearssl": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -38,12 +40,14 @@
       "inputs": {
         "bearssl": "bearssl",
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "flakeNimbleLib"
         ],
         "httputils": "httputils",
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "nixpkgs"
@@ -72,10 +76,12 @@
       "inputs": {
         "chronos": "chronos",
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "nixpkgs"
         ],
@@ -125,12 +131,14 @@
     "httputils": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -159,8 +167,9 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-sK1Ow//80EKE3bAF5d+2gB8vPXw6m5TBk3wSLHvdVe0=",
-        "path": "/nix/store/0yqgkbpmsk7ck4s34wk505sfdd9vils4-source",
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
         "type": "path"
       },
       "original": {
@@ -172,19 +181,18 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "serialization": "serialization",
-        "src-toml_serialization-master": "src-toml_serialization-master",
-        "stew": "stew_5",
-        "unittest2": "unittest2_5"
+        "toml_serialization-master": "toml_serialization-master"
       }
     },
     "serialization": {
       "inputs": {
         "faststreams": "faststreams",
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "nixpkgs"
         ],
         "src-serialization-master": "src-serialization-master",
@@ -500,6 +508,7 @@
     "stew": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -507,6 +516,7 @@
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -535,12 +545,14 @@
     "stew_2": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -568,11 +580,13 @@
     "stew_3": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "nixpkgs"
@@ -599,10 +613,12 @@
     "stew_4": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "nixpkgs"
         ],
@@ -628,9 +644,11 @@
     "stew_5": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master_5"
@@ -655,11 +673,13 @@
     "testutils": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "nixpkgs"
@@ -683,9 +703,40 @@
         "type": "github"
       }
     },
+    "toml_serialization-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "serialization": "serialization",
+        "src-toml_serialization-master": "src-toml_serialization-master",
+        "stew": "stew_5",
+        "unittest2": "unittest2_5"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1656284067,
+        "narHash": "sha256-wPIVox+dIm0qMjh0ADTLqgbXggM+IgT3JbV2x3bev/4=",
+        "owner": "nim-nix-pkgs",
+        "repo": "toml_serialization",
+        "rev": "f6c9e72df1a4dc959a0b698d563192675e4d094f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "toml_serialization",
+        "type": "github"
+      }
+    },
     "unittest2": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -693,6 +744,7 @@
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -721,6 +773,7 @@
     "unittest2_2": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -728,6 +781,7 @@
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "chronos",
@@ -756,11 +810,13 @@
     "unittest2_3": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "faststreams",
           "nixpkgs"
@@ -787,10 +843,12 @@
     "unittest2_4": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "serialization",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "serialization",
           "nixpkgs"
         ],
@@ -816,9 +874,11 @@
     "unittest2_5": {
       "inputs": {
         "flakeNimbleLib": [
+          "toml_serialization-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "toml_serialization-master",
           "nixpkgs"
         ],
         "src-unittest2-v0_0_4": "src-unittest2-v0_0_4"
