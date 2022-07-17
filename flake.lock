@@ -718,11 +718,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1656748647,
-        "narHash": "sha256-RxXC6M47m5xwfz0tes6dd874mI0DBAWFrzAt+Jq1DM4=",
+        "lastModified": 1657154801,
+        "narHash": "sha256-4vV00hBoz9VRMEKTTDVOU0Xkl6V9/Gjk2JRd3oWF8IA=",
         "owner": "nim-nix-pkgs",
         "repo": "toml_serialization",
-        "rev": "4cd0ac27d486e32060a01b0c5b77bd8d4456c15a",
+        "rev": "6e657c450233af8640100de04c40e585de464572",
         "type": "github"
       },
       "original": {
